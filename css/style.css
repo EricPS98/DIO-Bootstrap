@@ -1,5 +1,22 @@
+/* ------------------------- Tags Universais --------------------- */
+
+body{
+    font: 20px arial, sans-serif;
+}
+
+img{
+    margin-top: 20px;
+}
+
+/* ------------------------------ Classes -------------------------- */
+
 .navbar {
     background-color: #34C7D5;
+}
+
+.margin { 
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .quem-somos{
@@ -7,11 +24,40 @@
     color:#fffafa;
 }
 
-.margin {
-    padding-top: 50px;
-    padding-bottom: 50px;
+.img_quemsomos{
+    padding-bottom: 20px;
+ }
+
+ .img_servicos{
+     width: 100%;
+     padding-bottom: 20px;
+ }
+
+ .img_parceiros{
+    width: 100%;
 }
 
-#img_qs{
-    padding-top: 20px;
+/* --------------------------------- ID's ------------------------- */
+
+#parceiros{
+    background-color: #3E4242;
+    color: #fffafa;
+}
+ #titulo_servicos{
+     padding-bottom: 20px;
+ }
+
+#img_nav{
+    width: 90px; 
+    height: 80px;
+}
+
+/* ---------------------------- Tag universal com classe do bootstrap ---------------------- */
+
+footer.container-fluid{
+    background-color: #3E4242;
+    color: #fffafa;
+    height: 100%; 
+    margin: 0px;
+    padding: 5px;
 }
